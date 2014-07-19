@@ -3,11 +3,15 @@ html {
 	height: 100%;
 	background-color: #efefef;
 	font-family: sans-serif;
-
 }
 
 body {
 	font-family: sans-serif;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
 }
 
 #header {
@@ -54,9 +58,11 @@ body {
 }
 
 .blog-entry {
-	padding: 10px 26px;
+	padding: 23px 26px;
 	line-height: 22px;
 	text-align: justify;
+	padding-top: 20px;
+	margin-top: 16px;
 }
 
 #entry-header {
@@ -117,3 +123,10 @@ body {
 	margin: 0px 24px;
 }
 
+.site-titles {
+	float: left;
+	font-size: 24px;
+	line-height: 6px;
+	padding-top: 14px;
+	padding-left: 24px;
+}
