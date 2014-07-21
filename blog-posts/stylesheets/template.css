@@ -86,7 +86,7 @@ a {
 }
 
 #nav {
-	width: 24%;
+	width: 34%;
 	height: 40px;
 	background-color: #444444;
 	margin: 0px auto;
@@ -100,7 +100,7 @@ a {
 .button {
 	font-family: sans-serif;
 	display: inline-block;
-    width: 32%;
+    width: 24%;
     text-align: center;
     line-height: 42px;
     color: white;
