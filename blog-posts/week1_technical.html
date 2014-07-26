@@ -11,6 +11,7 @@
 		
 		<link rel="stylesheet" href="stylesheets/template.css"/>
 		<link rel="stylesheet" href="stylesheets/reset.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Muli:400,300italic' rel='stylesheet' type='text/css'>
 	
 	</head>
 	<body>
@@ -36,11 +37,49 @@
 				</ul>
 			</div>
 		</div>
+		
+				
+
 		<div id="main-content">
 			<div id="which-blog">
-				<div id="cultural"
-			</div>
+				<div id="cultural"</div>
 			<div id="post-container">
+				<div id="entry-header">
+					<h2 id="entry-title">Week 2 - Technical</h2>
+					<h2 id="entry-date">July 23rd</h2>
+				</div>
+				<h1 class="week-2-title">Static, Relative, Absolute and Fixed positioning</h1>
+				<p class="blog-entry" id="week-2">
+					In order to test everything I learned about through reading different articlies and tutorials, I opened up JSFiddle
+					To begin with, positioning does not cascade. This means that if you set a parent element's position to either Relative, Absolute, or Fixed, its child elements will not have this positioning unless you explicity set the positioning for them.
+					<br>
+					<br>
+    
+					<i>Static</i> positioning is the default state of elements on a page. 
+    				<br>
+    				<br>
+    				<strong>Relative:</strong> This means relative to the element's default position. If you do not define top, left, bottom, or right for the element, it will behave like a statically positioned element. If you have 3 boxes relatively positioned without defining top, left, bottom or right, they will appear as so - 
+    				<br>
+					<img class="examples" id="ex-1" src="images/example-1.png">
+					<br>
+    				If you add a top: 50px; to the red div it will shift down 50px from its original position like this -
+    				<br>
+    				<img class="examples" id="ex-2" src="images/example-2.png">
+					<br>
+    				Divs with relative positioning will appear on top of statically positioned divs, in this case, the yellow box is now halfway covered by the red div. Another trick you can do is to set a container div to relative, then position its child divs as absolute. When you do this the children will be positioned absolutely relative to the parent div rather than from the page. It will look like this - 
+    				<br>
+    				<img class="examples" id="ex-3" src="images/example-3.png">
+    				<br>
+    				If the parent div is positioned as static, the absolutely positioned child divs will instead do the default of being positioned absolutely in terms of the page, instead of the parent div. It will look like this - 
+    				<br>
+    				<img class="examples" id="ex-4" src="images/example-4.png">
+					<br>
+					<em>Absolute:</em> Absolute positioning means that the element will be positioned relative to the page itself, exactly where you set it to be placed, using top, left, right, and bottom. If any of the child elements parents or grandparent elements are positioned with relative or absolute positioning, the element will be placed relatively to that parent element, like I showed in the last example.
+					<br>
+					<strong>Fixed:</strong> Elements with fixed positioning are placed relatively to the viewport. This can be used for example as a fixed header or sidebar that is visible regardless of where the user scrolls.This can be useful in some cases in order to make page navigation accessible at all times, but is a less common positioning effect. It can be inconvenient in terms of responsive design as it might overlap and limit readability of a page when a user is accessing it from a mobile device, or any sort of smaller viewport.
+				</p>
+			</div>
+			<div id="post-container">	
 				<div id="entry-header">
 					<h2 id="entry-title">Week 1 - Techincal</h2>
 					<h2 id="entry-date">July 19th</h2>
@@ -52,6 +91,7 @@
 				<p class="blog-entry">
 					I think this site is very visually appealing. You can immediately figure out what their product offering is and how it works. The website uses few words to explain the product and makes its functionality more intuitive. When I first look at the site, my eye is drawn to the video in the center of the page, which shows how the product works. When stepping back, I notice the background image of the site. I think the video being in the center of the page is very effective in helping the company achieve their main goal, which is getting the user to buy their product. Instead of trying to convince you of the product by making you read about it, you can watch how convenient it can make your life by watching the video. I think the most important part of the page is the interactivity that occurs when you scroll down the page. This website and product solves the problem that people have relating to the clutter of things that everyone needs to carry around such as -- keys, sunglasses, credit cards, cash, etc. Their product compacts your money into one place so you have a couple things less to keep track of and worry about. The content of this page demonstrates the solution very clearly and creatively. One of my favorite parts about the page is the bright coloring that tells a story in a way along with pictures and moving images. I like the section that shows four credit cards being combined into one, this really emphasizes how useful their product is. By looking at the homepage you can immediately find content and information about the product you were looking for. You can also see the pre-order now button at the top of the page, and various spots throughout the page. If you are heading to the page to buy the product immediately, this can be easily done. Browsing through the content of the site is the best part of this site, it is very interactive and fun to scroll through and see how the product works. I like that I wasn't forced to read through block text to figure out what the product can do for me. This is not really a site you can spend a lot of time on because you quickly figure out its purpose. I would not get bored on this site. Looking at it is an enjoyable experience. The site sells a credit card that can hold all of your credit cards in one single card. Yes, I pre-ordered the product, they got me.
 				</p>
+				
 				<img class="sites" id="coin" src="images/spotify.png">
 				<a href="https://www.spotify.com/" target="_blank">
 				<h1 class="site-titles">Spotify</h1>
