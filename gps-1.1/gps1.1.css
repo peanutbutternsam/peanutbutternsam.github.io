@@ -1,0 +1,97 @@
+ 
+      * {
+          font-family: 'Dosis';
+      }
+      
+      #header img {
+        width: 150px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 150px;
+        display: inline-block;
+      }
+      
+      #header img:hover{
+        box-shadow: 0 0 15px white;
+      }
+      
+      #images {
+          text-align: center;
+          padding: 0px 30px;
+          width: 450px;
+          height: 150px;
+          margin: 0px auto;
+          padding-top: 24px;
+      }
+      
+      #sam-image {
+          width: 150px;
+          float: left;
+      }
+      
+      
+      #nelly-image {
+          width: 150px;
+          float: right;
+      }
+      
+      #header {
+        background-color: #70CC8D;
+        height: 252px;
+      }
+      
+      #wrap{
+        margin: 10px auto;
+        width: 80%;
+        height: 80%;
+      }
+      
+      .sections{
+        display: block;  
+        width:100%;
+        min-height: 300px;
+        background-color: #D8FFE4;
+        vertical-align: middle;
+        border-top: 4px solid #6C7F72;
+      }
+
+      
+      #title {
+        display: block;
+        color: white;
+        margin: 0;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Dosis';
+        padding-top: 10px;
+      }
+
+      .titles {
+        padding-bottom: 15px;
+        font-size: 20px;
+      }
+      
+      p {
+          line-height: 20px;
+          font-size: 20px;
+          padding:10px 20px;
+          margin: 0 auto;
+          text-align: justify;
+          color: #6C7F72;
+      }
+
+      .section-text {
+        width: 60%;
+        margin:0px auto;
+        font-family: 'Dosis';
+        padding-top: 30px;
+        padding-bottom: 15px;
+        min-width: 340px;
+
+      }
+      
+      h2 {
+          text-align: center;
+          color: #6C7F72;
+      }

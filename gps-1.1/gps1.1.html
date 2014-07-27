@@ -1,0 +1,64 @@
+<!--Let's do a giant ribbon with linked photos at the top, clicking will slide the page down to our bios-->
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>GPS 1.1</title>
+    <link rel="stylesheet" href="gps1.1.css"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  
+    
+  <body>
+    <div id="header">
+      <h1 id="title">Sam & Nelly</h1>
+      <div id="images">
+        
+        <div id="sam-image">
+            <a href="#sam"><img alt="sam" src="data:image/jpeg;base64,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"></a>
+        </div>
+        <div id="nelly-image">
+          <a href="#nelly"><img alt="nelly" src="http://www.helpinghomelesscats.com/images/cat1.jpg"></a>
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+    <section>
+      <a class="sections" id="sam">
+        <div class="section-text">
+          <h2 class="titles">Why is pair programming important?</h2>
+          <p>"Pair-Programming is important to DBC because it encourages collaboration and quick learning. Working with another person to solve a problem is more efficient as each person likely has stronger knowledge of different techniques that can complement each other. It is also valuable because talking through the problem and methods to solve it helps each member in the pair solidify their learning and remember how to do it when they run into a similar problem at a later time. Another benefit of pair-programming is the encouragement you receive from the person you are pairing with. Coding alone can be frustrating and discouraging at times."</p>
+        </div>
+      </a>
+    </section>
+    
+    <section>
+      <a class="sections" id="nelly">
+        <div class="section-text">
+          <h2 class="titles">Driver vs. Navigator</h2>
+          <p>"Defining the driver and navigator roles up front is important at first, but as you work, it's better to do what comes naturally. One person can start driving, but if the other person wants to jump in and add something really quick, there's no reason why she couldn't. So the roles may switch for a few seconds, but it's not a big deal. Driver-Navigator roles make a great team. For example, when the driver is coding, the navigator can be Googling for an image and finding resources online. That way both people are working at the same time."</p>
+          <p>"What is more important is that both sides are in constant communication. If the driver wants to google something, she can! Just tell the other person what you're up to. If the navigator wants to type something in, it's ok! As long as both people aren't stepping on each other's toes. Just remember, you're in this together."</p>
+        </div>
+      </a>
+    </section>
+    
+    <section>
+      <div class="sections" id="reflections">
+        <div class="section-text">
+          <h2 class="titles">Reflections</h2>
+          <p>"It was fun, productive. It was easier to pair, because you get a lot done. We got immediate feedback on what we're doing. We switched roles often and effectively. Our pictures were acting funny, but we tried different things, and now it sorta work."</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+
+
+
+
