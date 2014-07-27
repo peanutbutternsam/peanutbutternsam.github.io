@@ -1,0 +1,214 @@
+* {
+	font-family: 'Muli', sans-serif;
+}
+html {
+	width: 100%;
+	height: 100%;
+	background-color: #efefef;
+}
+
+body {
+	font-family: 'Muli', sans-serif;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+#header {
+	width:100%;
+	height: 100px;
+	background-color:white;
+	color: black;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Muli', sans-serif;
+}
+
+#nav-bar {
+	width: 100%;
+	height: 40px;
+	background-color: #444444;
+	border-bottom: 4px solid #dddddd;
+	font-family: 'Muli', sans-serif;
+}
+
+#desc {
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+#title {
+	padding-top: 16px;
+}
+
+#main-content {
+	background-color: #efefef;
+	height:auto;
+	width: 90%;
+	margin: 40px auto;
+}
+
+#about {
+	float: left;
+	height: 300px;
+	width: 65%;
+	background-color: #efefef;
+}
+
+#about-header {
+	font-size: 24px;
+	font-family: 'Muli';
+}
+
+#about-text {
+	font-size: 18px;
+	font-family: 'Muli';
+}
+
+#projects-box {
+	float: right;
+	display: inline-block;
+	height: 150px;
+	width: 30%;
+	background-color: #efefef;
+	margin-left:15px;
+}
+
+#projects-title-container {
+	height: 24px;
+	width: 60%;
+	margin:0px auto;
+	border-bottom: 1px solid rgb(162, 157, 157);
+}
+
+#projects-header {
+	color: black;
+	text-align: center;
+	line-height: 26px;
+	font-family: 'Muli';
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#links-list {
+	margin: 16px auto;
+	width: 60%;
+}
+
+.links {
+	text-align: left;
+	padding-left: 16px;
+	font-size: 18px;
+	line-height: 26px;
+	font-family: 'Muli';
+}
+
+.links:hover {
+	color: rgb(233, 138, 35);
+}
+
+#post-container {
+	width: 50%;
+	height:auto;
+	background-color: white;
+	margin: 20px auto;
+	min-width: 354px;
+	box-shadow: 0px 0px 5px 1px rgb(213, 210, 210);
+}
+
+.blog-entry {
+	padding: 23px 26px;
+	line-height: 22px;
+	text-align: justify;
+	padding-top: 20px;
+	margin-top: 16px;
+	font-family: 'Muli', sans-serif;
+}
+
+#week-2 {
+	margin-top: 26px;
+}
+
+#entry-header {
+	margin: 10px 26px;
+	height: auto;
+	padding: 24px 0px;
+	border-bottom: 2px solid rgb(235, 233, 233);
+	font-family: 'Muli', sans-serif;
+}
+
+
+#entry-title {
+	float: left;
+	font-size: 30px;
+	line-height: 6px;
+	font-family: 'Muli', sans-serif;
+}
+
+#entry-date {
+	float:right;
+	font-size: 30px;
+	line-height: 6px;
+	font-family: 'Muli', sans-serif;
+}
+
+#nav {
+	width: 28%;
+	height: 40px;
+	background-color: #444444;
+	margin: 0px auto;
+}
+
+#buttons {
+	width: 100%;
+	height:40px;
+}
+
+.button {
+	display: inline-block;
+    width: 32%;
+    text-align: center;
+    line-height: 42px;
+    color: white;
+}
+
+.button:hover {
+	background: linear-gradient(#a5d454,#80c43a);
+	border-bottom: none;
+	height: 100%;
+}
+
+.button:active {
+	background: linear-gradient(#a5d454,#5a832a);
+	border-bottom: none;
+	height: 100%; 
+}
+
+.sites {
+	width: 93%;
+	margin: 0px 24px;
+}
+
+.examples {
+	width: 93%;
+	margin: 10px auto;
+}
+
+.site-titles {
+	float: left;
+	font-size: 24px;
+	line-height: 6px;
+	padding-top: 14px;
+	padding-left: 24px;
+	font-family: 'Muli', sans-serif;
+}
+
+.week-2-title {
+	float: left;
+	font-size: 24px;
+	line-height: 6px;
+	padding: 14px 24px;
+	font-family: 'Muli', sans-serif;
+}
