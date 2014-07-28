@@ -53,14 +53,16 @@ a {
 
 #about {
 	float: left;
-	height: 300px;
-	width: 65%;
+	height: 310px;
+	width: 75%;
+	min-width: 300px;
 	background-color: #F5F3F3;
 }
 
 #main-pic {
 	width:100%;
 	height: auto;
+	min-width: 350px;
 }
 
 #about-header {
@@ -78,6 +80,7 @@ a {
 	display: inline-block;
 	height: 150px;
 	width: 20%;
+	min-width: 255px;
 	background-color: #F5F3F3;
 	margin-left:15px;
 }
@@ -161,7 +164,8 @@ a {
 }
 
 #nav {
-	width: 28%;
+	width: 25%;
+	min-width:360px;
 	height: 40px;
 	background-color: #444444;
 	margin: 0px auto;
@@ -170,11 +174,14 @@ a {
 #buttons {
 	width: 100%;
 	height:40px;
+	min-width: 302px;
+	margin: 0px auto;
 }
 
 .button {
 	display: inline-block;
-    width: 32%;
+    
+	width: 32%;
     text-align: center;
     line-height: 42px;
     color: white;
