@@ -42,6 +42,79 @@
 
 		<div id="main-content">
 			<div id="which-blog">
+			<div id="post-container">	
+				<div id="entry-header">
+					<h2 id="entry-title">Week 1 - Techincal</h2>
+					<h2 id="entry-date">July 19th</h2>
+				</div>
+				<h1 class="site-titles">Example of instance methods</h1>
+				<img class="sites" id="example-1" src="images/instance-methods.png">
+					
+				<p class="blog-entry" id="instance">
+					I will be referring to the example above to demonstrate how you can use instance methods versus how you can use class methods.
+					To begin with, I created a class called "Dogs". I first created a new method within Dogs called bark, which is called on "self". The intention of this method is that when you call Dogs.bark outside of the class, it will put the string "bark is a class method". When I tested this out on line 14, as you can see, this function works and I got the string I wanted. 
+
+					Next within the class I created an instance method which was defined without using self. When I tried calling this method outside of the class on line 15, I received a NoMethodError. It looks like my method 'walk' is undefined. The reason my instance method fails here is because it was attempting to call an instance method on the class itself rather than an instance of the class.
+
+					So what does that mean? The key difference between these two types of methods is that instance methods only work when you create and new instace of the class to use them, which requires calling class.New. Class methods can be executed on the class itself, without creating an instance of the class. You can see on lines 17 and 18 what happens when you try to call both of my methods on a new instance of the class "Dogs". Now we have an error on the class method, but the instance method does just what I wanted it to do.
+				</p>
+				<h1 class="site-titles">Example of instance variables</h1>
+				<img class="sites" id="coin" src="images/instance-variables.png">
+				
+				<p class="blog-entry" id="instance">
+					The next example here is to demonstrate instance variables. Here I use a class called "Singers" to demonstrate how instance variables can be used. In this example, I used them to demonstrate how they can be used to set, and retrieve values stored in instance variables.
+
+					<br>
+					<br>
+					Instance variables are useful because they prevent the hard-coding of values into each object, because often different instances of a class require the same variable, take price for example, but they will need to represent different values for each instance of an object. Instance variables allow each object to remember a state. They function the same way that other variables function. Instance variables differ from class variables in 3 ways:
+					<br>
+					<br>
+					1. They begin with an @ sign
+					<br>
+					<br>
+					2. They are only visible to self(the object they belong to)
+					<br>
+					<br>
+					3. When initialized in a method definition within a class, it can be used freely amongst the other methods within the same class.
+					<br>
+					<br>
+					Unlike local variables, instance variables retain values assigned to them even after the method it was initialized on has terminated.
+				</p>
+				
+			</div>
+			<div id="post-container">
+				<div id="entry-header">
+					<h2 id="entry-title">Week 4 - Technical</h2>
+					<h2 id="entry-date">Aug 7th</h2>
+				</div>
+				<h1 class="week-2-title">Enumerable#map</h1>
+				<p class="blog-entry" id="week-2">
+						The map method can be used if you want to return a transformed version of each element in a collection. The map method takes an array, applies a function to each element, and returns a new array with the results.
+
+
+						An example of when to use map would be as follows:
+						[1,2,3].map { |n| n * n }
+
+						this returns [1,4,9]
+
+						If you use map, this returns a new array, but if you use map!, this mutates the original array.
+
+						Consider you have an array of fruits -
+						fruits = ['peach', 'mango', 'cherry']
+
+						and you call fruits.map {|fruit| fruit.capitalize}
+
+						in this case, fruits still contains the same array ['Peach', 'Mango', 'Cherry']
+
+						if instead you were to call fruits.each {|fruit| fruit.capitalize}
+
+						your original array would remain the same because each does not alter the array it is called on.
+
+						fruits = ['peach', 'mango', 'cherry']
+						    
+				</p>
+			</div>	
+
 			<div id="post-container">
 				<div id="entry-header">
 					<h2 id="entry-title">Week 3 - Technical</h2>
