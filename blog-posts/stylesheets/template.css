@@ -103,6 +103,7 @@ a {
 
 #nav {
     width: 34%;
+    min-width: 400px;
     height: 40px;
     background-color: #444444;
     margin: 0px auto;
