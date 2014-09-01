@@ -42,6 +42,45 @@
 
 		<div id="main-content">
 			<div id="which-blog">
+				<div id="post-container">
+				<div id="entry-header">
+					<h2 id="entry-title">Week 7 - Technical</h2>
+					<h2 id="entry-date">Sept 1st</h2>
+				</div>
+				<h1 class="week-2-title">SQL vs. NoSQL</h1>
+				<p class="blog-entry" id="week-2">
+					This prompt was a little tough for me to wrap my head around with minimal experience with SQL and no experience with noSQL. I found a lot of articles, gathered information about it and below you'll find what I learned.
+
+					SQL is a Relational DataBase Management System with a manin focus on ACID. What does that mean?
+
+					Atomicity - Each transaction is atomic. 
+					Consistency - Every transaction faces a consistent rule set.
+					Isolation - All transaction should be separate, and none should interfere with any other.
+					Durability - Once a transaction is committed, it remains so.
+
+					Pretty much the first application that came to my mind when thinking about one that would follow the ACID model was a banking application, like my BankOfAmerica app on my phone. This app seems to need a strict relational database. Another application that came to mind was my Kaiser Permanente site that requires pretty intense login information and separates the application by patient.
+
+					Some of the main points of usefulness I found for RDBMS are: typed columns, structured data, broad and unrestrained queries, consistent way of accessing data.
+
+					These are geared towards joins, filters, and aggregations of data.
+
+
+					For larger, distributed data, it may not be the best choice to implement a RDBMS.
+
+					Google and Amazon for example had to switch to a more flexible and agile database system to accommodate their needs for scalability, high availability, costs, and distributed data.
+
+					So how do NoSQL work?
+					Objects of data are typically retrieved using a unique ID. The main differences I noticed were that they do not support complicated queries and do not use schema. This means that it involves denormalized data requiring users to maintin their own data relationships in their code. NoSQL follows the opposite model of ACID, called BASE.
+
+					Basically available - guaranteed availability
+					Soft-State - The state of the system may change even without a query because nodes can be updated.
+					Eventually Consistent - The system become more consistent over time.
+
+					To conclude, NoSQL is good for dealing with growing lists of elements, for example - twitter posts and blog entries. It has the ability to store and retrieve large amounts of data, and has less functionality but higher performance than SQL. SQL should be used in applications requiring structured data and more functionality but NoSQL can be used to store both structured and unstructured data.
+    
+				</p>
+			</div>	
+
 			<div id="post-container">	
 				<div id="entry-header">
 					<h2 id="entry-title">Week 6 - Techincal</h2>
