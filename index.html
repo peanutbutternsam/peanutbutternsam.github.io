@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-
+		<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 		<title>Hello DBC!</title>
 
 		<!-- Meta Tags -->
@@ -9,63 +10,40 @@
 		
 		<!-- Stylesheets -->
 		
-		<link rel="stylesheet" href="blog-posts/stylesheets/index-stylesheet.css"/>
-		<link rel="stylesheet" href="blog-posts/stylesheets/reset.css"/>
-		<link href='http://fonts.googleapis.com/css?family=Muli:400,300italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="stylesheets/slider-nav.css"/>
+		<link rel="stylesheet" href="stylesheets/reset.css"/>
+
+		<!-- Fonts -->
+		
+		<!-- Javascript -->
+
+		<script type="text/javascript" src="js/slider-nav.js"></script>
 	
 	</head>
 	<body>
-		<header id="header">
-			<h1 id="title">Hello DBC!</h1>
-			<p id="desc">DBC Phase 0 Challenges</p>
+		<header>
+
+			<div id="button" class="button-hidden" onclick="slide()">
+				<a>
+					<img src="images/list-icon.png" alt="List button">
+				</a>
+			</div>
 		</header>
-		<div id="nav-bar">
-			<div id="nav">
-				<ul id="buttons">
-					<li class="button">
-						<a href="index.html">Home</a>
-					</li>
-					<li class="button">
-						<a href="blog-posts/week1_technical.html">Tech Blog</a>
-					</li>
-					<li class="button">
-						<a href="blog-posts/week1_cultural.html">Culture Blog</a>
-					</li>
-				</ul>
-			</div>
+		<div class="title">
+			<h1> Samantha Stallings</h1>
+			<p>My name is Samantha and I am currently a student at Dev Bootcamp in San Francisco, CA. This site is a log of my projects and experiences throughout phase 0 of the program - a 9 week prep period before I start Phase 1 on September 15th. Prior to starting DBC, I worked in finance, lending to Enterprise Software companies in Los Angeles.</p>
 		</div>
-		<div id="main-content">
-			<div id="about">
-				<h1 id="about-header"></h1>
-				<p id="about-text">
-					<img id="main-pic" src="images/desktop-cartoon.png" alt="animation of desk items">
-				</p>
-				
+		
+		<div id="sidebar-nav" class="slider-nav sidebar-hidden">
+			<div class="menu-header" >
 			</div>
-			<div id="projects-box">
-				<div id="projects-title-container">
-					<h1 id="projects-header">My projects</h1>
-				</div>
-				<div id="project-links">
-					<ul id="links-list">
-						<li class="links">
-							<a href="gps-1.1/gps1.1.html">GPS 1.1</a>
-						</li>
-						<li class="links">
-							<a href="Responsive-site/starting-point.html">Responsive site</a>
-						</li>
-						<li class="links">
-							<a href="unit1_projects/wireframe_sites.html">Wireframe</a>
-						</li>
-						<li class="links">
-							<a href="unit1_projects/dbc1.html">DBC1</a>
-						</li>
-						<li class="links">
-							<a href="unit1_projects/dbc2.html">DBC2</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+			
+			<ul class="menu-items">
+				<li><a href="index.html">About</a></li>
+				<li><a href="blog-posts/tech-blog.html">Blog</a></li>
+				<li><a href="portfolio/portfolio.html">Portfolio</a></li>
+				<li><a href="index.html">Contact</a></li>
 		</div>
+		
 
 	</body>
