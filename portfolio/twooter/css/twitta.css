@@ -58,6 +58,19 @@ body {
   font-size: 16px;
 }
 
+.enter-code {
+  width: 65%;
+  height: 49px;
+  margin: 0 -2px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  float: left;
+  border: 2px solid #eee;
+  background: #fff;
+  color: #757575;
+  font-size: 16px;
+}
+
 
 .submit {
   width: 34%;
@@ -78,6 +91,11 @@ body {
   background-color: #66C266;
 }
 
+
+#code {
+  padding-top: 10px;
+}
+
 .list-change-wrap {
   padding: 2% 5%;
   position:relative;
@@ -87,6 +105,11 @@ body {
   max-width: 80%;
   overflow: hidden;
   background-color: white;
+}
+
+p {
+  font-family: 'Allerta Stencil', sans-serif;
+  text-align: center;
 }
 
 
