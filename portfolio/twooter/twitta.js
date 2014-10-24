@@ -3,12 +3,9 @@
 
     function funct1(event)
     {
-        //var title = $("#").text();
-        var tweet_content = $(".text-box").val();
-        firebaseRef.push({tweet_text: tweet_content});
         event.preventDefault();
+        var tweet_content = $("#user-input").val();
+        firebaseRef.push({tweet_text: tweet_content});
     }
 
-    var submit = document.getElementsByTagName('button')[0];
-
-    submit.onclick = funct1;
+    $('.submit').click(funct1);
