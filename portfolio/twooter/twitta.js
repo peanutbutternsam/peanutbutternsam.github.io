@@ -16,4 +16,3 @@
 
     $('.submit').click(funct1);
     $('.submit').click(clearInput);
-    $('.submit').click(funct1);
