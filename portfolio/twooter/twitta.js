@@ -4,7 +4,9 @@
     function funct1(event) {
         event.preventDefault();
         var tweet_content = $("#user-input").val();
-        firebaseRef.push({tweet_text: tweet_content});
+        if (tweet_content.length > 1){
+            firebaseRef.push({tweet_text: tweet_content});
+        }
     }
 
     function clearInput() {
