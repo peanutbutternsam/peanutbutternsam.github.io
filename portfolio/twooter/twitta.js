@@ -4,7 +4,7 @@
     function funct1(event) {
         event.preventDefault();
         var tweet_content = $("#user-input").val();
-        tweet_content.trim();
+        tweet_content = tweet_content.trim();
         if (tweet_content.length > 1){
             firebaseRef.push({tweet_text: tweet_content});
         }
